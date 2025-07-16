@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+}
+.container {
+  width: 80vw;
+  height: 80vh;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  height: 370px;
+  background-color: white;
+  border-radius: 10px;
+}
+.chai {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+.chaibutton a {
+  text-decoration: none;
+  color: white;
+}
+.chaibutton {
+  background-color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+.title,
+.description,
+.chaibutton {
+  margin-left: 20px;
+}
+.title {
+  margin-block: 1px;
+  margin-top: 13px;
+  /* padding-block: 1px; */
+}
+.description {
+  max-width: 250px;
+}
+.product {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  /* padding-inline: 20px; */
+}
+.image-div {
+  width: 90%;
+  height: 50%;
+  margin: 0;
+  margin-inline: auto;
+  padding-block: 7px;
+}
+.second {
+  background-color: rgb(189, 131, 244);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+}
